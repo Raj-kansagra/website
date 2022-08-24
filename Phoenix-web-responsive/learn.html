@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phoenix Club | LNMIIT</title>
+    <link href="/images/logo.jpeg" rel="icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="/images/logo.jpeg" />
+      </div>
+      <label>
+        <img class="menu-btn" src="/images/main-menu.png" />
+      </label>
+      <div class="tabs" id="tab">
+        <ul>
+          <li><a class="active" href="">HOME</a></li>
+          <li><a href="">OUR MEMBERS</a></li>
+          <li><a href="">ACHIEVEMENTS</a></li>
+          <li><a href="">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="parallax">
+      <div class="container1">
+        <div class="subhead">
+        <h1>PHOENIX CLUB<br></div>
+            <div class="subtitle">
+                Innovation is the unrelenting drive to break the status quo and develop anew where few have dared to go.“
+
+                <br><i>~Steven Jeffes</i></h1>
+       </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="try">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into<br /><br />
+        electronic typesetting, remaining essentially unchanged. It was
+        popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software
+        like Aldus PageMaker including versions of Lorem Ipsum<br /><br />
+      </p>
+
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into<br /><br />
+        electronic typesetting, remaining essentially unchanged. It was
+        popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software
+        like Aldus PageMaker including versions of Lorem Ipsum<br /><br />
+      </p>
+    </div>
+    <img src="/images/header1.jpg" alt="">
+
+    <footer class="footer">
+      <div class="foot">
+        <div class="row">
+          <div class="foot-col">
+            <h4>Address</h4>
+            <ul>
+              <li>Rupa ki Nangal,</li>
+              <li>Post-Sumel,Via, Jamdoli,</li>
+              <li>Jaipur, Rajasthan 302031</li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h4>Contact us</h4>
+            <ul>
+              <li>First Name +91-9211420121</li>
+              <li>second Name +91-9211420121</li>
+              <li>third Name +91-9211420121</li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h4>Follow us</h4>
+            <div class="follow">
+              <div class="social-links">
+                <a><i class="fa fa-facebook-f"></i></a>
+                <a><i class="fa fa-twitter"></i></a>
+                <a><i class="fa fa-instagram"></i></a>
+                <a><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copy">©Copyright 2022-2023 by Phoenix Club of LNMIIT</div>
+
+    <script>
+      let menu = document.getElementsByClassName("menu-btn")[0];
+
+      menu.addEventListener("click", function () {
+        document.getElementById("tab").classList.toggle("tabs");
+
+        if (document.querySelector("body").style.overflow === "hidden") {
+          document.querySelector("body").style.overflow = "auto";
+        } else {
+          document.querySelector("body").style.overflow = "hidden";
+        }
+      });
+    </script>
+  </body>
+</html>
